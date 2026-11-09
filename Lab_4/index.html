@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота №4</title>
+</head>
+
+<body>
+
+    <h1>Моя HTML-форма</h1>
+
+    <form method="GET" action="https://httpbin.org/get">
+<label for="username">Ваше ім'я:</label>
+<input type="text" id="username" name="username">
+<br><br>
+      <label for="userbirthday">Дата народження:</label>
+<input type="date" id="userbirthday" name="userbirthday">
+<br><br>
+      <label for="useremail">Електронна пошта:</label>
+<input type="useremail" id="useremail" name="useremail">
+<br><br>
+      <label for="message">Повідомлення:</label>
+      
+<textarea id="message" name="message" rows="2" cols="20"></textarea>
+<br><br>
+      <p>Ваші улюблені напої?</p>
+
+<label>
+    <input type="checkbox" name="drinks" value="Чай">
+    Чай
+</label>
+<br>
+
+<label>
+    <input type="checkbox" name="drinks" value="Кава">
+    Кава
+</label>
+<br>
+
+<label>
+    <input type="checkbox" name="drinks" value="Сік">
+    Сік
+</label>
+<br>
+
+<label>
+    <input type="checkbox" name="drinks" value="Вода">
+    Вода
+</label>
+<br><br>
+      <p>Моя національність:</p>
+
+<label>
+    <input type="radio" name="nationality" value="Українець">
+    Українець
+</label>
+<br>
+
+<label>
+    <input type="radio" name="nationality" value="Поляк">
+    Поляк
+</label>
+<br>
+
+<label>
+    <input type="radio" name="nationality" value="Інша">
+    Інша
+</label>
+<br><br>
+      <button type="submit">Відправити</button>
+      <button type="reset">Очистити</button>
+    </form>
+  <picture>
+    <source
+        media="(max-width: 468px)"
+        srcset="https://picsum.photos/seed/picsum/300/500">
+    <img
+        src="https://picsum.photos/seed/picsum/1000/400"
+        alt="Моє зображення"
+        style="width: 100%;">
+</picture>
+</body>
+</html>
